@@ -1,0 +1,27 @@
+{
+    "name": "phgov/logtracker",
+    "description": "User activity log manager. All kind of database activity will be tracked",
+    "license": "MIT",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Phgov\\Logtracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "motakabbirmorshed",
+            "email": "morsheddolar1990@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "prefer-stable": true,    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "phGov\\Logtracker\\LogtrackerServiceProvider"
+            ]
+        }
+    }
+}
