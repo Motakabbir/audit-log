@@ -3,11 +3,7 @@
     "description": "User activity log manager. All kind of database activity will be tracked",
     "license": "MIT",
     "type": "package",
-    "autoload": {
-        "psr-4": {
-            "Phgov\\Logtracker\\": "src/"
-        }
-    },
+    
     "authors": [
         {
             "name": "motakabbirmorshed",
@@ -15,8 +11,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "prefer-stable": true,    
+    "prefer-stable": true, 
+    "require": {},  
+    "autoload": {
+        "psr-4": {
+            "Phgov\\Logtracker\\": "src/"
+        }
+    },     
     "extra": {
         "laravel": {
             "providers": [
